@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Login</title>
+        <title>QUIZ</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/0dfdf90590.js" crossorigin="anonymous"></script>
@@ -12,12 +12,11 @@
     </head>
     <body>
         <div class="form-container">
-            <h3>SIGN IN</h3>
+            <h3>FILL IN YOUR DETAILS.</h3>
             <form>
-                        <input type="email" class="form-control" placeholder="Email Address" required>
-                        <input type="password" id="t1" class="form-control" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                        <button class="submit">LOGIN</button>
-                        <p class="sign-in">Don't have an account? <a href="../QuizApp/regi.html">Register</a></p>
+                        <input type="text" class="form-control" placeholder="STUDENT NAME" required>
+                        <input type="number" class="form-control" placeholder="STUDENT ID" required step="1" min="1" name="number" value="" />
+                        <a href="quiz.html"><button type="button" class="submit">START TEST</button></a>
             </form>
         </div>
     </body>

@@ -30,7 +30,8 @@ body{
 }
 .form-container input[type="text"],
 .form-container input[type="email"],
-.form-container input[type="password"]
+.form-container input[type="password"],
+.form-container input[type="number"]
 {
     width:330px;
     height:40px;
